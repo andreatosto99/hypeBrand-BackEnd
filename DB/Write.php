@@ -2,7 +2,7 @@
 
 $bulk = new MongoDB\Driver\BulkWrite;
 
-$document1 = ['_id' => 'nuteltino@gmail.com', 'name' => 'pippo', 'surname' => 'inzaghi','password' => '123456' ];
+$document1 = ['_id' => 'iannons7@gmail.com', 'name' => 'Mattia', 'surname' => 'Iannone','password' => '123456' ];
 
 $_id1 = $bulk->insert($document1);
 
